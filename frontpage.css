@@ -1,8 +1,8 @@
 body {
   width: auto;
   font-family: 'Poppins', sans-serif;
-  margin: 20px;
-  padding: 0px;
+  margin: 15px;
+  padding: 20px;
   padding-top: 8px;
   background-color: white;
   color: #333333;
@@ -10,36 +10,6 @@ body {
 
   flex-direction: column;
 }
-/* Style for the modal */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.4);
-}
-
-.modal-content {
-  background-color: white;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 300px;
-}
-
-.close {
-  float: right;
-  font-size: 24px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-/* Additional styling for forms and buttons */
-/* Customize as needed */
-
 
 header {
   z-index: 1;
@@ -47,10 +17,11 @@ header {
 
 .banner {
   z-index: 2;
+  margin-top: 10px;
 }
 
 .banner img {
-  width: 2000px;
+  width: 100%;
   max-width: 100%;
 }
 
@@ -111,9 +82,8 @@ navigationbar {
   display: flex;
   justify-content: space-between;
   background-color: white;
-  margin-bottom: 0px;
+  margin: 0px;
   padding-top: 0px;
-  padding-bottom: 0px;
 }
 
 navigationbar ul {
@@ -165,18 +135,13 @@ navigationbar li ul.submenu li a {
 navigationbar li ul.submenu li a:hover {
   background-color: #ddd;
 }
-.btnLogin-popup
-{
-  border:none;
-}
-
 .leftside
 {
   padding-right: 40%;
 }
-.rightside{
-  padding-right: 5px;
-  width: 192px;
+.rightside
+{
+  justify-content: flex-end;
 }
 .leftside ul a
 {
@@ -186,9 +151,14 @@ navigationbar li ul.submenu li a:hover {
 
 }
 
+.rightside ul button {
+ border: none;
+ cursor: pointer;
+}
+
 .rightside ul a {
   color: #24262b;
-  background-color: #00B4D8;
+  background-color: #ffffff;
   display: inline-block;
   height: 20px;
   width: 40px;
@@ -201,15 +171,13 @@ navigationbar li ul.submenu li a:hover {
 
 .rightside ul a:hover {
   color: #ffffff;
-  background-color:#00B4D8;
+  background-color: #00B4D8;
   display: inline-block;
 }
 .rightside ul button
 {
-  cursor: pointer;
   border: none;
 }
-
 .container1 {
   font-family: 'Bebas Neue', cursive;
   background-color: #F5F5F5;
@@ -282,7 +250,7 @@ navigationbar li ul.submenu li a:hover {
 }
 
 .container2 .cards1 {
-  margin-top: 65px;
+  margin-top: 30px;
   position: relative;
   transition: 0.3s ease-in-out;
   border-radius: 10px;
@@ -313,12 +281,12 @@ navigationbar li ul.submenu li a:hover {
 }
 .container2 .cards1:hover a {
   color: #ffffff;
-
 }
 .container2 .cards1 .block1 .imagebox {
   position: relative;
   width: 260px;
   height: 180px;
+
   padding-left: 40px;
 }
 
@@ -329,7 +297,7 @@ navigationbar li ul.submenu li a:hover {
   border-radius: 10px;
 }
 
-section2 {
+.section2 {
   position: relative;
   height: 100%;
   font-family: sans-serif;
