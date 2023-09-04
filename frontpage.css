@@ -304,6 +304,7 @@ navigationbar li ul.submenu li a:hover {
   color: #000;
 }
 
+
 .container3 {
   background-color: #F5F5F5;
   margin-top: 0vh;
@@ -319,6 +320,11 @@ navigationbar li ul.submenu li a:hover {
   border-color: Blue;
   transform: scale(1) ;
 }
+.container3 h3 {
+  color: #000;
+  padding-left: 42%;
+  align-content: center;
+}
 
 .swiper2 {
   width: 100%;
@@ -331,7 +337,7 @@ navigationbar li ul.submenu li a:hover {
   align-items: center;
 }
 
-.testimonial-content {
+.Testimonial-content {
   display: flex;
   padding: 2rem;
   flex-direction: column;
@@ -344,7 +350,7 @@ navigationbar li ul.submenu li a:hover {
   width: 2.5rem;
 }
 
-.testimonial-text {
+.Testimonial-text {
   flex-grow: 1;
   font-size: 1rem;
   line-height: 1.25rem;
@@ -370,11 +376,7 @@ h2 {
   padding-left: 32%;
 }
 
-.container3 h3 {
-  color: #000;
-  padding-left: 42%;
-  align-content: center;
-}
+
 
 footer {
   font-family: 'Poppins', sans-serif;
