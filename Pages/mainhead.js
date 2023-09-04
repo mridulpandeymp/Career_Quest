@@ -21,7 +21,7 @@ let appHeader = `
   <header>
     <navigationbar>
       <div class="navigationbarmid">
-        <a href="../frontpage.html"><img src="LOGO3.jpeg" alt="Logo"></a>
+        <a href="../index.html"><img src="LOGO3.jpeg" alt="Logo"></a>
         </div>
         <div class="leftside">
           <ul>
