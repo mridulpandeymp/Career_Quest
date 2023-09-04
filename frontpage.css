@@ -326,12 +326,12 @@ navigationbar li ul.submenu li a:hover {
   align-content: center;
 }
 
-.swiper2 {
+.swiper {
   width: 100%;
   height: 100%;
 }
 
-.swiper2-slide {
+.swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -356,11 +356,11 @@ navigationbar li ul.submenu li a:hover {
   line-height: 1.25rem;
 }
 
-.swiper2 .swiper2-pagination .swiper2-pagination-bullet {
+.swiper .swiper-pagination .swiper-pagination-bullet {
   background-color: white;
 }
 
-.swiper2 .swiper2-pagination .swiper2-pagination-bullet-active {
+.swiper .swiper-pagination .swiper-pagination-bullet-active {
   background-color: rgb(26, 26, 19);
 }
 
